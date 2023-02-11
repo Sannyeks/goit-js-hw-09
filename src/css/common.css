@@ -16,3 +16,39 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  cursor: pointer;
+}
+
+/* timer */
+.timer {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.field {
+  padding: 10px;
+  border-radius: 3px;
+  background: #3308ef;
+  display: inline-block;
+}
+
+.value {
+  font-size: 40px;
+  padding: 15px;
+  border-radius: 3px;
+  background: #4d9ae7;
+  display: inline-block;
+}
+
+.label {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
